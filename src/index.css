@@ -1,0 +1,118 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    background: red;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.headerList1 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    float: left;
+    background: red;
+}
+
+.headerList2 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    float: left;
+    background: yellow;
+}
+
+.headerList3 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    float: left;
+    background: blue;
+}
+
+.bodyList1 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+.bodyList2 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+.bodyList3 {
+    height: 100%;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+
+.body {
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer {
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.footerContain {
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.footerContain div {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+}

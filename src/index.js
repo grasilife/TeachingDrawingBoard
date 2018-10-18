@@ -1,0 +1,3 @@
+    $(function() {
+        $(".footerContain img").draggable();
+    });
