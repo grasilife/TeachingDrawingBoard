@@ -148,7 +148,7 @@ $(function () {
                 if (bodyListTop < top && top < bodyListBottom) {
                     // console.log("在黄色范围")
                     for (var i = 0; i < attr.length; i++) {
-                        if (event.target.alt == attr[i].name) {
+                        if ($(event.target).children('img')[0].alt == attr[i].name) {
                             if (attr[i].color == "黄色") {
                                 attr[i].state = true
                             } else {
@@ -162,7 +162,7 @@ $(function () {
                 if (bodyListTop < top && top < bodyListBottom) {
                     // console.log("在绿色范围")
                     for (var i = 0; i < attr.length; i++) {
-                        if (event.target.alt == attr[i].name) {
+                        if ($(event.target).children('img')[0].alt == attr[i].name) {
                             if (attr[i].color == "绿色") {
                                 attr[i].state = true
                             } else {
@@ -177,6 +177,8 @@ $(function () {
         stop: function (event, ui) { }
     });
     $('.click').on('click', function () {
+       $('.imgInfo').children('#true').hide()
+        $('.imgInfo').children('#false').hide()
         console.log(attr, "结果")
         var node = $(".imgContain").children('img')
         console.log(node)

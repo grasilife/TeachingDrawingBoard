@@ -110,7 +110,7 @@ html {
 }
 
 #true {
-    position: relative;
+    position: absolute;
     top: -140px;
     left: 50px;
     z-index: 100;
@@ -118,7 +118,7 @@ html {
 }
 
 #false {
-    position: relative;
+    position: absolute;
     top: -140px;
     left: 50px;
     z-index: 100;
@@ -139,4 +139,8 @@ html {
     height: 40px;
     box-sizing: border-box;
     float: left;
+}
+
+.imgInfo {
+    position: relative;
 }
